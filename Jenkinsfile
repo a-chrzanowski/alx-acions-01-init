@@ -40,6 +40,7 @@ pipeline {
             // junit 'reports/junit-report.xml'
             // blokada, bo wymaga odpowiedniej konfiguracji GitHub
             // https://stackoverflow.com/questions/67162746/how-to-get-rid-of-noisy-warning-no-suitable-checks-publisher-found
+            echo Cokolwiek
         }
         success {
             echo 'Tests passed 🎉'
